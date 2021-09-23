@@ -10,11 +10,10 @@ public class ContactTest{
 	
 		String Url = System.getProperty("url");
 		String Browser = System.getProperty("browser");
-
-		System.out.println("execute createCreate");
-
 		System.out.println("===="+Browser);
 		System.out.println("===="+Url);
+		
+		System.out.println("execute createCreate");
 
 	}
 	
