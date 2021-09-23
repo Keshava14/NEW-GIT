@@ -28,4 +28,10 @@ public class ContactTest{
 		System.out.println("execute searchContactTest");
 		
 	}
+	@Test(groups ="RegressionTest")
+	public void editContactTest() {
+	
+		System.out.println("execute editContactTest");
+		
+	}
 }
