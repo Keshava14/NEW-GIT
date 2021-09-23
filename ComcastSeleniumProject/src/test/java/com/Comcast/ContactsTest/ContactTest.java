@@ -8,11 +8,15 @@ public class ContactTest{
 	@Test(groups ="SmokeTest")
 	public void createContactTest() {
 	
+		String Url = System.getProperty("url");
+		String Browser = System.getProperty("browser");
+
 		System.out.println("execute createCreate");
+
+		System.out.println("===="+Browser);
+		System.out.println("===="+Url);
+
 	}
-	
-	String Url = System.getProperty("url");
-	String browser = System.getProperty("browser");
 	
 	@Test(groups ="RegressionTest")
 	public void createContactWithOgTest() {
@@ -21,12 +25,8 @@ public class ContactTest{
 	}
 	@Test(groups ="RegressionTest")
 	public void deleteContactTest() {
-		String Url = System.getProperty("URL");
-		String Browser = System.getProperty("browser");
+				
 		System.out.println("execute deleteContactTest");
-		System.out.println(Browser);
-		System.out.println(Url);
-
 		
 	}
 	@Test(groups ="RegressionTest")

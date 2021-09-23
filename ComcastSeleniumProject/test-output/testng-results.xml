@@ -1,49 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="101" started-at="2021-09-22T08:58:12Z" finished-at="2021-09-22T08:58:12Z">
+  <suite name="Default suite" duration-ms="79" started-at="2021-09-23T09:50:02Z" finished-at="2021-09-23T09:50:02Z">
     <groups>
       <group name="SmokeTest">
-        <method signature="ContactTest.createContactTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@71423665]" name="createContactTest" class="com.Comcast.ContactsTest.ContactTest"/>
-        <method signature="OrgTest.createOrgTest()[pri:0, instance:com.Comcast.OrgTest.OrgTest@20398b7c]" name="createOrgTest" class="com.Comcast.OrgTest.OrgTest"/>
+        <method signature="ContactTest.createContactTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@2ac273d3]" name="createContactTest" class="com.Comcast.ContactsTest.ContactTest"/>
       </group> <!-- SmokeTest -->
       <group name="RegressionTest">
-        <method signature="ContactTest.createContactWithOgTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@71423665]" name="createContactWithOgTest" class="com.Comcast.ContactsTest.ContactTest"/>
-        <method signature="ContactTest.deleteContactTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@71423665]" name="deleteContactTest" class="com.Comcast.ContactsTest.ContactTest"/>
-        <method signature="OrgTest.createOrgWithInduTest()[pri:0, instance:com.Comcast.OrgTest.OrgTest@20398b7c]" name="createOrgWithInduTest" class="com.Comcast.OrgTest.OrgTest"/>
-        <method signature="OrgTest.deleteOrgTest()[pri:0, instance:com.Comcast.OrgTest.OrgTest@20398b7c]" name="deleteOrgTest" class="com.Comcast.OrgTest.OrgTest"/>
+        <method signature="ContactTest.createContactWithOgTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@2ac273d3]" name="createContactWithOgTest" class="com.Comcast.ContactsTest.ContactTest"/>
+        <method signature="ContactTest.deleteContactTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@2ac273d3]" name="deleteContactTest" class="com.Comcast.ContactsTest.ContactTest"/>
+        <method signature="ContactTest.editContactTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@2ac273d3]" name="editContactTest" class="com.Comcast.ContactsTest.ContactTest"/>
+        <method signature="ContactTest.searchContactTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@2ac273d3]" name="searchContactTest" class="com.Comcast.ContactsTest.ContactTest"/>
       </group> <!-- RegressionTest -->
     </groups>
-    <test name="Test" duration-ms="101" started-at="2021-09-22T08:58:12Z" finished-at="2021-09-22T08:58:12Z">
-      <class name="com.Comcast.OrgTest.OrgTest">
-        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.Comcast.OrgTest.OrgTest@20398b7c]" name="createOrgTest" duration-ms="0" started-at="2021-09-22T08:58:12Z" finished-at="2021-09-22T08:58:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrgTest -->
-        <test-method status="PASS" signature="deleteOrgTest()[pri:0, instance:com.Comcast.OrgTest.OrgTest@20398b7c]" name="deleteOrgTest" duration-ms="8" started-at="2021-09-22T08:58:12Z" finished-at="2021-09-22T08:58:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteOrgTest -->
-        <test-method status="PASS" signature="createOrgWithInduTest()[pri:0, instance:com.Comcast.OrgTest.OrgTest@20398b7c]" name="createOrgWithInduTest" duration-ms="0" started-at="2021-09-22T08:58:12Z" finished-at="2021-09-22T08:58:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrgWithInduTest -->
-      </class> <!-- com.Comcast.OrgTest.OrgTest -->
+    <test name="Default test" duration-ms="79" started-at="2021-09-23T09:50:02Z" finished-at="2021-09-23T09:50:02Z">
       <class name="com.Comcast.ContactsTest.ContactTest">
-        <test-method status="PASS" signature="createContactTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@71423665]" name="createContactTest" duration-ms="24" started-at="2021-09-22T08:58:12Z" finished-at="2021-09-22T08:58:12Z">
+        <test-method status="PASS" signature="createContactTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@2ac273d3]" name="createContactTest" duration-ms="30" started-at="2021-09-23T09:50:02Z" finished-at="2021-09-23T09:50:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContactTest -->
-        <test-method status="PASS" signature="createContactWithOgTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@71423665]" name="createContactWithOgTest" duration-ms="0" started-at="2021-09-22T08:58:12Z" finished-at="2021-09-22T08:58:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContactWithOgTest -->
-        <test-method status="PASS" signature="deleteContactTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@71423665]" name="deleteContactTest" duration-ms="8" started-at="2021-09-22T08:58:12Z" finished-at="2021-09-22T08:58:12Z">
+        <test-method status="PASS" signature="deleteContactTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@2ac273d3]" name="deleteContactTest" duration-ms="0" started-at="2021-09-23T09:50:02Z" finished-at="2021-09-23T09:50:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteContactTest -->
+        <test-method status="PASS" signature="searchContactTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@2ac273d3]" name="searchContactTest" duration-ms="16" started-at="2021-09-23T09:50:02Z" finished-at="2021-09-23T09:50:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchContactTest -->
+        <test-method status="PASS" signature="editContactTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@2ac273d3]" name="editContactTest" duration-ms="0" started-at="2021-09-23T09:50:02Z" finished-at="2021-09-23T09:50:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editContactTest -->
+        <test-method status="PASS" signature="createContactWithOgTest()[pri:0, instance:com.Comcast.ContactsTest.ContactTest@2ac273d3]" name="createContactWithOgTest" duration-ms="0" started-at="2021-09-23T09:50:02Z" finished-at="2021-09-23T09:50:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOgTest -->
       </class> <!-- com.Comcast.ContactsTest.ContactTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
