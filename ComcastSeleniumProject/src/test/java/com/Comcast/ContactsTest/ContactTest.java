@@ -8,10 +8,10 @@ public class ContactTest{
 	@Test(groups ="SmokeTest")
 	public void createContactTest() {
 	
-		String Url = System.getProperty("url");
-		String Browser = System.getProperty("browser");
-		System.out.println("===="+Browser);
-		System.out.println("===="+Url);
+		String ENV = System.getProperty("url");
+		String BROWSER = System.getProperty("browser");
+		System.out.println("===="+BROWSER);
+		System.out.println("===="+ENV);
 		
 		System.out.println("execute createCreate");
 
