@@ -101,7 +101,7 @@
 						<configuration>
 							<suiteXmlFiles>
 								<!-- TestNG suite XML files -->
-								<suiteXmlFile>textng_regressionTest.xml</suiteXmlFile>
+								<suiteXmlFile>testng_regressionTest.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
