@@ -13,7 +13,7 @@ public class ContactTest{
 		System.out.println("===="+ BROWSER);
 		System.out.println("===="+ ENV);
 		
-		System.out.println("execute createCreate");
+		System.out.println("execute createContactTest");
 
 	}
 	
