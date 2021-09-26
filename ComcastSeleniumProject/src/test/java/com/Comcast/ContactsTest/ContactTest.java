@@ -10,8 +10,8 @@ public class ContactTest{
 	
 		String ENV = System.getProperty("url");
 		String BROWSER = System.getProperty("browser");
-		System.out.println("===="+BROWSER);
-		System.out.println("===="+ENV);
+		System.out.println("===="+ BROWSER);
+		System.out.println("===="+ ENV);
 		
 		System.out.println("execute createCreate");
 
