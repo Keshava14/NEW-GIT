@@ -8,7 +8,7 @@ public class OrgTest{
 	@Test(groups ="SmokeTest")
 	public void createOrgTest() {
 	
-		System.out.println("execute createCreate");
+		System.out.println("execute createOrg");
 	}
 	
 	@Test(groups ="RegressionTest")
