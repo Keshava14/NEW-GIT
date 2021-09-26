@@ -8,7 +8,7 @@ public class ContactTest{
 	@Test(groups ="SmokeTest")
 	public void createContactTest() {
 	
-		System.out.println("execute createContactTest");
+		System.out.println("Execute createContactTest");
 
 		String BROWSER = System.getProperty("browser");
 		String ENV = System.getProperty("url");
